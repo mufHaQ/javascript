@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DOM Events</title>
+
+  <style>
+    * {
+      margin: 15px;
+      padding: 10px;
+      box-sizing: border-box;
+      border-radius: 10px;
+      border: 1px solid black;
+    }
+
+    html,
+    body {
+      border: none;
+      margin: 0;
+      padding: 0;
+    }
+
+    ul {
+      list-style: none;
+    }
+
+    li {
+      font-weight: bold;
+      font-size: 20px;
+    }
+
+    .container {
+      width: 500px;
+      margin: 50px auto;
+      background-color: rgb(100, 100, 100);
+      color: white
+    }
+
+    .tgl-ligh-blue {
+      background-color: lightblue;
+      color: black;
+    }
+
+    .dark {
+      margin: 0;
+      padding: 0;
+      background: green;
+      position: sticky;
+      right: 0;
+      border-radius: 0;
+      top: 0;
+    }
+
+    .dark button {
+      outline: none;
+      border: none;
+      font-weight: bold;
+      cursor: pointer;
+    }
+
+    .dark-mode {
+      background-color: rgb(40, 40, 40);
+      color: white;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="dark">
+    <button>Dark Mode</button>
+  </div>
+  <div class="container">
+    <h1>Hello World</h1>
+    <section class="section-a">
+      <ul>
+        <li>List 1</li>
+        <li>List 2</li>
+        <li>List 3</li>
+        <li>List 4</li>
+        <li>List 5</li>
+      </ul>
+    </section>
+    <section class="section-b">
+      <ul>
+        <li>List 1</li>
+        <li>List 2</li>
+        <li>List 3</li>
+        <li>List 4</li>
+        <li>List 5</li>
+      </ul>
+    </section>
+  </div>
+  <script type="text/javascript" src="script.js"></script>
+</body>
+
+</html>

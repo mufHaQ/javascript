@@ -1,0 +1,86 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DOM Manipulation Part 1</title>
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      background: rgb(236, 236, 236);
+    }
+
+    .container {
+      width: 1050px;
+      margin: 70px auto;
+      padding: 5px;
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+    }
+
+    section {
+      width: 500px;
+      box-shadow: 0px 0px 5px rgba(0, 0, 0, .5);
+      margin-bottom: 30px;
+      border-radius: 20px;
+      padding: 20px 5px;
+      height: fit-content;
+      background: white;
+    }
+
+    h1 {
+      font-size: 50px;
+      text-align: center;
+      margin-bottom: 10px;
+    }
+
+    li {
+      border: 2px solid black;
+      list-style: none;
+      margin: 5px 0;
+      max-height: 38px;
+      font-size: 30px;
+      overflow: auto;
+      padding: 0 5px;
+    }
+
+    .biru-muda {background-color: lightblue;}
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <section class="section-a section">
+      <h1>SECTION A</h1>
+      <ul>
+        <li>List 1</li>
+        <li>List 2</li>
+        <li>List 3</li>
+        <li>List 4</li>
+        <li>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dignissimos in sunt quasi id repellat qui molestias exercitationem. Porro, animi, ullam ipsam magnam reprehenderit dolor eveniet et aliquid enim veniam nemo!</li>
+        <li>List 6</li>
+      </ul>
+    </section>
+    <section class="section-b section">
+      <h1>SECTION B</h1>
+      <ul>
+        <li>List 1</li>
+        <li>List 2</li>
+        <li>List 3</li>
+        <li>List 4</li>
+      </ul>
+    </section>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
